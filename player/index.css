@@ -90,6 +90,12 @@ gap: 28px;
     margin-top: 28px;
     align-items: center;
 }
+.btn{
+    cursor: pointer;
+}
+svg:hover{
+    filter: drop-shadow(0px 0px 4px white);
+}
 .track{
     position: relative;
     margin-top: 28px;
