@@ -100,7 +100,7 @@ svg:hover{
     position: relative;
     margin-top: 28px;
 }
-.track::before{
+.before{
     content: '';
     height: 6px;
     width: 100%;
@@ -110,13 +110,14 @@ svg:hover{
     border-radius: 9.3px;
     position: absolute;
 }
-.track::after{
+.after{
     content: '';
     height: 6px;
-    width: 80%;
+    width: 1%;
     display: block;
     background: #D9D9D9;
     border-radius: 9.3px;
+    animation: barAnimation 261s ease-in;
 }
 .time{
     font-size: 14px;
@@ -137,5 +138,14 @@ svg:hover{
     }
     .horizontal .controls{
         padding-inline: 30px;
+    }
+}
+
+@keyframes barAnimation {
+    from{
+        width: 1%;
+    }
+    to{
+        width: 100%;
     }
 }
