@@ -15,7 +15,7 @@ const url = "https://api.spotify.com/v1/tracks/4gT3mNJA8lnlkYFqGZ8IA2";
 
 const options = {
   headers: {
-    Authorization: "Bearer BQC3jVhPo74_Kl0_9sM_8YudQ6AUo2_pGFYlD0wNY0Z7sm44y7R4ywZxVIcyiJFfMbLX4MqlMNRLYH2fbcHF9mNxLOXyVuPtNaYqdCndPSgk7e65nSVMZXDNw0WevqGtY-y8C6MZ2zHWyoH-HgkW3OK_wDYydPI9LLW5ZSc93Rp0XsuJEmjwW4WTyLaEdLq5I8g"
+    Authorization: "Bearer ######auth-token######"
   }
 };
 
